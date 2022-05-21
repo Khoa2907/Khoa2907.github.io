@@ -1,39 +1,100 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    	<link rel="icon" href="https://i.pinimg.com/236x/80/0b/b2/800bb2f00a91cbf6af9e94ce72ce99f9.jpg"
-        type="image/x-icon">
-        <h1 align="center">
-		<title>Hi</title>
-		<style>
-			header{background-color:rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));height:50px;color: rgb(0, 0, 0);}
-			section{background-color:rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));height:500px;color:rgb(99, 31, 31);}
-			footer{background-color:rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));height:50px;color: rgb(255, 255, 255);}
-		</style>
-	</head>
-	<body>
-    <body background="https://wallpapercave.com/wp/wp7242574.jpg">
-		<header>
-        <h1 align="left">
-			<font face="serif" size="4">
-			<nav>
-                &nbsp;&nbsp;
-				<a href="https://github.com/Khoa2907">Github</a>&nbsp;&nbsp; 
-				<a href="GioiThieu.html">Giới Thiệu</a>&nbsp;&nbsp;
-				<a href="https://www.facebook.com/Khoa2907/">Facebook</a>&nbsp;&nbsp;
-                <a href="https://gamechomayyeu.blogspot.com/">Blog</a>
-			</nav>
-		</header>
-		<section>
-            <h1>Welcome to My Website</h1>
-            <h1 align="center">
-			<form>
-				<input type="text" placeholder="Search....">
-				<button>Tìm Kiếm</button>
-			</form>
-		</section>
-		<footer>
-			<p h1 align="left">Bản quyền của Khoa.</p>
-		</footer>
-	</body>
-</html
+<head>
+    <title>Menu</title>
+    <style type="text/css">
+        body{
+            background: #282923;
+        }
+        section{
+            height:700px;
+            background-image: url('https://tophinhanh.com/wp-content/uploads/2022/01/8_hinh-gif-anime-chill-gif-chill-dep-nhat.gif');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+        }
+        *{
+            text-decoration: none;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: Arial;
+        }
+        .nav {
+            background-color: black;
+            display: flex;
+            height: 4em;
+            padding-right: 2.5em;
+            line-height: 4em;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 2em;
+            padding-left: 2em;
+        }
+        .Menu {
+            dispLay: flex;
+            font-size: 17px;
+            padding-right: 2.5em;
+        }
+        .Menu a:hover {
+            color: #1fa86f;
+            transition: color .2s ease-out;
+        }
+        .menu_link {
+            padding-right: 2.5em;
+            font-size: 17px;
+        }
+        .menu_link a:hover {
+            color: #1fa86f;
+        }
+        .menu_down {
+            background: black;
+            width: 180px;
+            height:10em;
+            line-height: 3em;
+            margin: 0px auto;   
+            position: absolute;
+            top: 60px;
+            right: 70px;
+            display: none;
+        }
+        .menu_down li {
+            text-align: center;
+            padding: 0px;
+        }
+        .menu_down li a:hover {
+            color: #28e370;
+        }
+        .Menu .menu_link:hover .menu_down {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="nav">
+        <img style="width:100px;height:63px;" src="https://static.vecteezy.com/system/resources/previews/002/839/998/non_2x/dk-logo-letter-monogram-slash-with-modern-logo-designs-template-vector.jpg">
+        <ul class="Menu">
+            <li><a href="TrangChu.html">Trang Chủ</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="GioiThieu.html">Giới Thiệu</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="menu_link">
+                <a href="">Liên Hệ</a>
+                <ul class="menu_down">
+                <li><a href="https://www.facebook.com/Khoa2907/">Facebook</a></li>
+				<li><a href="https://www.instagram.com/29thang7ne_/">Instagram</a></li>
+				<li><a href="https://github.com/Khoa2907">Github</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
+<section>
+
+</section>
+</body>
+</html>
