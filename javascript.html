@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+       <head>
+      <title>Bài tập</title>
+      
+<style>
+#noidung{
+    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+body{
+  background-image: url("https://media.istockphoto.com/vectors/abstract-hexagon-wallpaper-white-background-3d-vector-illustration-vector-id1212342896?k=20&m=1212342896&s=612x612&w=0&h=fp3B4g_hE54snO4Nf1ggElVnI0gD9s7tPd5JU0eFl9Q=");
+  background-repeat:  no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  min-height: 100vh;
+}
+h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+    #noidung{background: #3acef3; height:250px; width:100%;color:#080808; font-size:25px;
+          text-align: center;
+          border-radius: 20px;
+          
+}
+    button{background:#CDC1B6;
+        margin-left:10px;
+        border-radius:10px ;
+        height: 45px;
+        display: inline;
+}
+
+</style>
+       </head>
+       <body>
+        <h1>Bài tập JavaScript</h1>
+        <p id="noidung"></p>
+      <button type="button" onclick="hienthi()">Thông tin cá nhân </button>
+      <button type="button" onclick="tinhtong()">Tính tổng</button>     
+      <button type="button" onclick="tinhtongchan()">Tính tổng chẵn</button>
+        <script>
+          function hienthi() {
+document.getElementById("noidung").innerHTML = "Xin chào. Tôi là Nguyễn Duy Khoa";
+          }
+         function tinhtong() {
+      let text =0;
+      for( let i=1 ; i<=10;i++){
+        text +=i;
+      }
+document.getElementById("noidung").innerHTML =text ;
+          }
+        function tinhtongchan() {
+      let text =0;
+      for( let i=1 ; i<=10;i++){
+        if(i%2==0){
+        text +=i;
+      }
+    }
+document.getElementById("noidung").innerHTML =text ;
+          }
+        </script>    
+     </body>
+</html>
